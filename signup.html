@@ -1,9 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="css/signup.css">
     <title>Utopic Music - Sign Up </title>
 </head>
+
+
+    <h1 class="title">Sign up</h1>
+    <p class="context">Create your account to continue with Utopic</p>
+               
+
+
 <body>
+  
+   <form class="form" action="actionPage">
+        <label for="name"> Name </label>
+        <div>
+            <input type="text"  name="name" required>
+        </div>
+        
+        <label for="lastname"> Lastname </label>
+        <div>
+            <input type="text"  name="lastname" required>
+        </div>
+        
+        <label for="email">Email</label>
+        <div>
+            <input type="text"  name="email" required>
+        </div>
+
+        <label for="psw">Password</label>
+        <div>
+        <input type="password" name="psw" required>
+        </div>
+
+        <label for="psw-repeat">Repeat Password</label>
+        <div>
+        <input type="password"  name="psw-repeat" required>
+        </div>
+        <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+        <p>By creating an account you agree to our <a href="terms">Terms & Privacy</a>.</p>
+
+        <div class="buttonsSignup">
+            <button type="button" class="cancelbtn">Cancel </button>
+            <button type="submit" class="submitbtn">Sign Up </button>
+        </div>
+        </div>
+   </form> 
+
+
     
 </body>
+
+
+
 </html>
